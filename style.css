@@ -1,0 +1,31 @@
+#game_of_life {
+  border: 1px solid black;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+#container {
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+}
+
+#side_menu {
+  display: flex;
+  flex-direction: column;  
+  row-gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+#side_menu button {
+  font-size: 20px;
+}

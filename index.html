@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>    
+  </head>
+  <body onload="main()">
+    <div id="container">
+      <canvas id="game_of_life" width="400" height="400"></canvas>
+      <div id="side_menu">
+        <button id="simulation_button" onclick="toggleSimulation()">Start Simulation</button>
+        <div class="slidecontainer">
+          <input type="range" onchange="changeDelay()" min="50" max="1000" value="500" class="slider" id="delay_range">
+        </div>
+        <h3>Delay: <span id="delay_label">X</span> msecs</h3>
+      </div>
+    </div>
+  </body>
+</html>
